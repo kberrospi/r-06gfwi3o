@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Welcome from './Welcome';
 
 class App extends Component {
   constructor() {
@@ -9,6 +10,7 @@ class App extends Component {
       names: ["Juan", "Pedro", "Germán"]
     }
   }
+
 
   render() {
     return (
